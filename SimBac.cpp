@@ -76,7 +76,7 @@ int main(int argc, char *argv[]) {
       cout<<help<<endl;
       return 1;
     }
-    while ((c = getopt (argc, argv, "ahN:T:m:M:R:r:D:e:s:B:G:c:l:d:o:b:f:g")) != -1)
+    while ((c = getopt (argc, argv, "ahN:T:m:M:R:r:D:e:s:B:G:c:l:d:o:b:f:g:")) != -1)
     switch (c)
     {
         case('N'):n=atoi(optarg);break;
